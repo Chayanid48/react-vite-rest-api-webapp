@@ -2,8 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ProductList from "./components/ProductList";
-import { useState } from "react";
+import { ProductProvider } from "./components/ProductContext";
 import ProductList from "./components/ProductList";
 import AddProduct from "./components/AddProduct";
 
